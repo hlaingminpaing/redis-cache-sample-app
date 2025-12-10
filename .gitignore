@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Docker
+docker-data/
+redis_data/
+*.pid
+
+# Cache
+.cache/
+.tmp/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional: Ignore coverage
+coverage/
