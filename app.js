@@ -116,7 +116,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // -------------------- CONFIG --------------------
-const USE_CACHE = true; // toggle to test with or without cache
+const USE_CACHE = false; // toggle to test with or without cache
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 // Create Redis client
